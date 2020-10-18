@@ -3,7 +3,7 @@
 	<info>
 		<name>Irkitlo Wolf,</name>
 		<description>5e homebrew</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		</update>
 	</info>
