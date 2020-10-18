@@ -11,7 +11,7 @@
 	<element name="Wolven Irkitlof" type="Language" source="Dilrax Stormpaw" id="ID_LANGUAGE_WOLVEN_IRKITLOF">
 		<supports>Exotic</supports>
 		<description>
-			<p>Typically spoken by Irkitlov Wolves.</p>
+			<p>Typically spoken by Irkitlov Wolves, can be used to communicate with wolves.</p>
 		</description>
 		<setters>
 			<set name="exotic">true</set>
