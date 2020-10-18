@@ -10,7 +10,7 @@
 	</info>
 	<files>
 		<!-- Races -->
-		<file name="race-irkitlo_wolf.xml" url="" />
+		<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		
 		<!-- Languages -->
 		<file name="" url="" />
