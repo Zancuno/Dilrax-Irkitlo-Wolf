@@ -3,13 +3,14 @@
 	<info>
 		<name>Irkitlo Wolf,</name>
 		<description>5e homebrew</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		</update>
 	</info>
 
     <element name="Irkitlo Wolf" type="Source" source="Core" id="ID_DILRAX_SOURCE_IRKITLO_WOLF">
         <setters>
+			<set name="abbreviation">IRWF</set>
 			<set name="url">https://github.com/Zancuno/Dilrax-Irkitlo-Wolf</set>
 			<set name="image">https://i84.servimg.com/u/f84/17/81/69/47/cqwisa10.jpg</set>
 			<set name="author" url="https://twitter.com/RenTekDilrax">Dilrax Stormpaw</set>
