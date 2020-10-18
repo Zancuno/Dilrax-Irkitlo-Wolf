@@ -5,7 +5,7 @@
 		<description>Irkitlo Wolf Race for Homebrew 5e.</description>
 		<author url="https://twitter.com/RenTekDilrax">Dilrax Stormpaw</author>
 		<update version="0.0.1">
-			<file name="dilrax.index" url="" />
+			<file name="dilrax.index" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax.index" />
 		</update>
 	</info>
 	<files>
