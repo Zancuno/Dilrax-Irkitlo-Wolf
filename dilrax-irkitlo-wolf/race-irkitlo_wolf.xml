@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Irkitlo Wolf,</name>
+		<description>5e homebrew</description>
+		<author url="https://twitter.com/RenTekDilrax">Dilrax Stormpaw</author>
+		<update version="0.0.1">
+			<file name="race-irkitlo_wolf.xml" url="" />
+		</update>
+	</info>
+	
+	<element name="Irkitlo Wolf" type="Race" source="Dilrax Stormpaw" id="ID_DILRAX_RACE_IRKITLO_WOLF">
+		<description>
+			<h4>PHYSICAL DESCRIPTION</h4>
+			<p>The Irkitlo Are a Animal-like bipedal cross Species between a Wolf and Fox, specifically a Fennec/Snow fox mix, other wise also known as a Folf, or Pholph when
+some times written, The Irkitlo have physical characteristics of both species but depending on which species side is more dominant with in the being is the side that
+defines their physical appearance and build the most but both attributes contribute to their way of life, tradition and survival with in the Mountainous Region plagued
+with Spine piercing Wind, blood freezing cold and Blinding Snow storms they call their home territory, making their homes and camps among the snow covered
+forests, calling both the (Ground) and (Trees) home, these Snow born hunters have thick coats of fur covering their entire body's, more so evident by the ball and
+mane of fluff which covers the chest and neck but also the enormous amount of Fluff that trails behind them, this fluff both are both helpful, hindering, pleasant but
+also dangerous to touch in some instances but primarily protecting them from the very harsh cold elements but helping them to camouflage when hunting during
+snow blinding storms, this has also lead to the Irkitlo learning to hunt effectively using their acute hearing and keen sense of Smell with out eye sight.
+they are a strictly carnivorous species often made sick by most fruits and vegetables but are able to ingest grains with minimal issue, due to this their diet mostly
+consists of fish and the meat from other animals and beasts though they are not entirely picky about what kind of meat for they will eat almost anything as long as its
+meat from something that was once alive, or in rare cases while alive as the Irkitlo often hunt using only their Claws and fangs instead of knives, spears and bows,
+their wolf like strength giving them tremendous jaw strength and in desperate times often sinking their teeth into the flesh of prey as its caught and proceeding to not
+only tear out chunks or snap bone but also start eating the torn chunks that fill their mouths, this somewhat feral of hunting utilised by the irkitlo has refined their
+Physical Strength, Agility and natural weapons.</p>
+			<h4>IRKITLO WOLF TRAITS</h4>
+			<p>Missing Data</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your desterity score increases by 2. Your Intelligence score increases by 1.<br />
+				<span class="feature">Size.</span>Medium.<br />
+				<span class="feature">Speed.</span>Your base walking speed is 40 feet. Your climbing speed is 20 feet.<br />
+				<span class="feature">Dark Vision.</span>Your Nocturnal Hunts allow you to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.<br />
+				<span class="feature">Thick Fur.</span>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments When in hot environments, such as deserts, thermal zones, etc., as well as when wet, you count as having a point of exhaustion.<br />
+				<span class="feature">Tooth and Claw.</span>Your Natural Weapons; Sharp Claws and Fanged maw Count as unarmed strikes and can deal lethal Damage; Bite: Your Bite is as Big as your Bark dealing piercing damage equal to 1d6 + modifier as a primary or a secondary attack. Claw: You rip with a sharp appendage, dealing piercing and slashing damage equal to 1d4 +modifier, You Can Attack twice if both hands are empty and have a climbing speed of 20 feet.<br />
+				<span class="feature">Irkitlov Pack Tactics.</span>Whenever you attack a target that is adjacent to at least one of your allies, you gain a +1 bonus on melee attack and damage rolls. If you and the ally are flanking the target, the bonus on damage rolls increases to +2, and both gain a +1 bonus to a saving throw against the target during its next turn. (if an ally is not deemed 'trustworthy' they do not count towards the bonus).<br />
+				<span class="feature">Scent.</span>This extraordinary special quality allows you to detect approaching enemies, sniff out hidden foes, and track by sense of smell. with the scent ability you can identify familiar odors just as humans do familiar sights.<br />
+				<span class="feature">Instincts.</span>You occasionally find your self Subconsciously Performing certain tasks in a more Feral Manner and just doing something rather then thinking about it first, Your Intelligence is the lowest Ability Score Roll and you will often substitute words when speaking any language for that of the Irkitlov vocal language, the lower your intelligence score the more frequent it happens.<br />
+				<span class="feature">For The Pack</span>You are distrusting of others who are not of your own kind or bear a marking of recognition from your kind, while you might get along fine with your other companions you still remain cautious and vigilant around them, you do not contribute to teamwork based bonuses with characters and people you don't fully trust.<br />
+			</p>
+		</description>
+		<sheet display="false">
+			<description>To Do</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="40" bonus="base" />
+			<grant type="Racial Trait" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION" />
+			<grant type="Racial Trait" id="ID_DILRAX_RACIAL_TRAIT_THICK_FUR" />
+			<grant type="Racial Trait" id="ID_DILRAX_RACIAL_TRAIT_TOOTH_AND_CLAW" />
+			<grant type="Racial Trait" id="ID_DILRAX_RACIAL_TRAIT_IRKITLOV_PACK_TACTICS" />
+			<grant type="Racial Trait" id="ID_DILRAX_RACIAL_TRAIT_SCENT" />
+			<grant type="Racial Trait" id="ID_DILRAX_RACIAL_TRAIT_INSTINCTS" />
+			<grant type="Racial Trait" id="ID_DILRAX_RACIAL_TRAIT_FOR_THE_PACK" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_WOLVEN_IRKITLOF" />
+			<grant type="Language" id="ID_LANGUAGE_BEAST_IRKITLOF" />
+		</rules>
+	</element>
+	<element name="Dark Vision" type="Racial Trait" source="Dilrax Stormpaw" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>Your Nocturnal Hunts allow you to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.</p>
+		</description>
+		<sheet>
+			<description>Your Nocturnal Hunts allow you to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.</description>
+		</sheet>
+	</element>
+	<element name="Thick Fur" type="Racial Trait" source="Dilrax Stormpaw" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments When in hot environments, such as deserts, thermal zones, etc., as well as when wet, you count as having a point of exhaustion.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments When in hot environments, such as deserts, thermal zones, etc., as well as when wet, you count as having a point of exhaustion.</description>
+		</sheet>
+	</element>
+	<element name="Tooth And Claw" type="Racial Trait" source="Dilrax Stormpaw" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>Your Natural Weapons; Sharp Claws and Fanged maw Count as unarmed strikes and can deal lethal Damage; Bite: Your Bite is as Big as your Bark dealing piercing damage equal to 1d6 + modifier as a primary or a secondary attack. Claw: You rip with a sharp appendage, dealing piercing and slashing damage equal to 1d4 +modifier, You Can Attack twice if both hands are empty and have a climbing speed of 20 feet.</p>
+		</description>
+		<sheet>
+			<description>Your Natural Weapons; Sharp Claws and Fanged maw Count as unarmed strikes and can deal lethal Damage; Bite: Your Bite is as Big as your Bark dealing piercing damage equal to 1d6 + modifier as a primary or a secondary attack. Claw: You rip with a sharp appendage, dealing piercing and slashing damage equal to 1d4 +modifier, You Can Attack twice if both hands are empty and have a climbing speed of 20 feet.</description>
+		</sheet>
+	</element>
+	<element name="Irkitlov Pack Tactics" type="Racial Trait" source="Dilrax Stormpaw" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>Whenever you attack a target that is adjacent to at least one of your allies, you gain a +1 bonus on melee attack and damage rolls. If you and the ally are flanking the target, the bonus on damage rolls increases to +2, and both gain a +1 bonus to a saving throw against the target during its next turn. (if an ally is not deemed 'trustworthy' they do not count towards the bonus).</p>
+		</description>
+		<sheet>
+			<description>Whenever you attack a target that is adjacent to at least one of your allies, you gain a +1 bonus on melee attack and damage rolls. If you and the ally are flanking the target, the bonus on damage rolls increases to +2, and both gain a +1 bonus to a saving throw against the target during its next turn. (if an ally is not deemed 'trustworthy' they do not count towards the bonus).</description>
+		</sheet>
+	</element>
+	<element name="Scent" type="Racial Trait" source="Dilrax Stormpaw" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>This extraordinary special quality allows you to detect approaching enemies, sniff out hidden foes, and track by sense of smell. with the scent ability you can identify familiar odors just as humans do familiar sights.</p>
+		</description>
+		<sheet>
+			<description>This extraordinary special quality allows you to detect approaching enemies, sniff out hidden foes, and track by sense of smell. with the scent ability you can identify familiar odors just as humans do familiar sights.</description>
+		</sheet>
+	</element>
+	<element name="Instincts" type="Racial Trait" source="Dilrax Stormpaw" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>You occasionally find your self Subconsciously Performing certain tasks in a more Feral Manner and just doing something rather then thinking about it first, Your Intelligence is the lowest Ability Score Roll and you will often substitute words when speaking any language for that of the Irkitlov vocal language, the lower your intelligence score the more frequent it happens.</p>
+		</description>
+		<sheet>
+			<description>You occasionally find your self Subconsciously Performing certain tasks in a more Feral Manner and just doing something rather then thinking about it first, Your Intelligence is the lowest Ability Score Roll and you will often substitute words when speaking any language for that of the Irkitlov vocal language, the lower your intelligence score the more frequent it happens.</description>
+		</sheet>
+	</element>
+	<element name="For The Pack" type="Racial Trait" source="Dilrax Stormpaw" id="ID_DILRAX_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>You are distrusting of others who are not of your own kind or bear a marking of recognition from your kind, while you might get along fine with your other companions you still remain cautious and vigilant around them, you do not contribute to teamwork based bonuses with characters and people you don't fully trust.</p>
+		</description>
+		<sheet>
+			<description>You are distrusting of others who are not of your own kind or bear a marking of recognition from your kind, while you might get along fine with your other companions you still remain cautious and vigilant around them, you do not contribute to teamwork based bonuses with characters and people you don't fully trust.</description>
+		</sheet>
+	</element>
+</elements>
+		
+		

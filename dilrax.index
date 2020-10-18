@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Dilrax Stormpaw</name>
+		<description>Irkitlo Wolf Race for Homebrew 5e.</description>
+		<author url="https://twitter.com/RenTekDilrax">Dilrax Stormpaw</author>
+		<update version="0.0.1">
+			<file name="dilrax.index" url="" />
+		</update>
+	</info>
+	<files>
+		<!-- Races -->
+		<file name="race-irkitlo_wolf.xml" url="" />
+		
+		<!-- Languages -->
+		<file name="" url="" />
+	
+	</files>
+</index>

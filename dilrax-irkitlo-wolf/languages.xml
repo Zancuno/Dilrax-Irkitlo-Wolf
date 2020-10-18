@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<description>Languages for Irkitlo Wolves.</description>
+		<author url="https://twitter.com/RenTekDilrax">Dilrax Stormpaw</author>
+		<update version="0.0.1">
+			<file name="languages.xml" url="" />
+		</update>
+	</info>
+	<element name="Wolven Irkitlof" type="Language" source="Dilrax Stormpaw" id="ID_LANGUAGE_WOLVEN_IRKITLOF">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by Irkitlov Wolves.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Irkitlo</set>
+			<set name="script"></set>
+		</setters>
+	</element>	
+	<element name="Beast Irkitlof" type="Language" source="Dilrax Stormpaw" id="ID_LANGUAGE_BEAST_IRKITLOF">
+		<supports>Exotic</supports>
+		<description>
+			<p>Language used by Irkitlo Wolves to speak to any matter of beast.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Irkitlo</set>
+			<set name="script"></set>
+		</setters>
+	</element>	
+</elements>
