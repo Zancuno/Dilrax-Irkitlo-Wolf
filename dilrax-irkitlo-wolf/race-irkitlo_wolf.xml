@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		</update>
 	</info>
@@ -56,6 +56,7 @@ Physical Strength, Agility and natural weapons.</p>
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="40" bonus="base" />
 			<grant type="Racial Trait" id="ID_IRWF_RACIAL_TRAIT_DARK_VISION" />
+			<grant type="Racial Trait" id="ID_IRWF_RACIAL_TRAIT_THICK_FUR" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_WOLVEN_IRKITLOF" />
 			<grant type="Language" id="ID_LANGUAGE_BEAST_IRKITLOF" />
@@ -67,6 +68,14 @@ Physical Strength, Agility and natural weapons.</p>
 		</description>
 		<sheet>
 			<description>Your Nocturnal Hunts allow you to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.</description>
+		</sheet>
+	</element>
+		<element name="Thick Fur" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_DARK_VISION">
+		<description>
+			<p>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments When in hot environments, such as deserts, thermal zones, etc., as well as when wet, you count as having a point of exhaustion.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments When in hot environments, such as deserts, thermal zones, etc., as well as when wet, you count as having a point of exhaustion.</description>
 		</sheet>
 	</element>
 </elements>
