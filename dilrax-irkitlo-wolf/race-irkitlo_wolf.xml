@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		</update>
 	</info>
@@ -18,7 +18,7 @@
 	
 	<element name="Irkitlo Wolf" type="Race" source="Irkitlo Wolf" id="ID_IRWF_RACE_IRKITLO_WOLF">
 		<description>
-			<h4>PHYSICAL DESCRIPTION</h4>
+			<h4>DESCRIPTION</h4>
 			<p>The Irkitlo Are a Animal-like bipedal cross Species between a Wolf and Fox, specifically a Fennec/Snow fox mix, other wise also known as a Folf, or Pholph when
 some times written, The Irkitlo have physical characteristics of both species but depending on which species side is more dominant with in the being is the side that
 defines their physical appearance and build the most but both attributes contribute to their way of life, tradition and survival with in the Mountainous Region plagued
@@ -34,7 +34,6 @@ their wolf like strength giving them tremendous jaw strength and in desperate ti
 only tear out chunks or snap bone but also start eating the torn chunks that fill their mouths, this somewhat feral of hunting utilised by the irkitlo has refined their
 Physical Strength, Agility and natural weapons.</p>
 			<h4>IRKITLO WOLF TRAITS</h4>
-			<p>Missing Data</p>
 			<p>
 				<span class="feature">Ability Score Increase.</span>Your desterity score increases by 2. Your Intelligence score increases by 1.<br />
 				<span class="feature">Size.</span>Medium.<br />
@@ -53,6 +52,7 @@ Physical Strength, Agility and natural weapons.</p>
 		</sheet>
 		<rules>
 			<stat name="dexterity" value="2" />
+			<stat name="Intelligence" value="1" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="40" bonus="base" />
 			<grant type="Racial Trait" id="ID_IRWF_RACIAL_TRAIT_DARK_VISION" />
