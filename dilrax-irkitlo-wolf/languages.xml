@@ -5,7 +5,7 @@
 		<description>Languages for Irkitlo Wolves.</description>
 		<author url="https://twitter.com/RenTekDilrax">Dilrax Stormpaw</author>
 		<update version="0.0.1">
-			<file name="languages.xml" url="" />
+			<file name="languages.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/languages.xml" />
 		</update>
 	</info>
 	<element name="Wolven Irkitlof" type="Language" source="Dilrax Stormpaw" id="ID_LANGUAGE_WOLVEN_IRKITLOF">
