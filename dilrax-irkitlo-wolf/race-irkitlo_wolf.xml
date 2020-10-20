@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		</update>
 	</info>
@@ -90,6 +90,14 @@ Physical Strength, Agility and natural weapons.</p>
 		<sheet>
 			<description>Your Natural Weapons; Sharp Claws and Fanged maw Count as unarmed strikes and can deal lethal Damage; Bite: Your Bite is as Big as your Bark dealing piercing damage equal to 1d6 + modifier as a primary or a secondary attack. Claw: You rip with a sharp appendage, dealing piercing and slashing damage equal to 1d4 +modifier, You Can Attack twice if both hands are empty and have a climbing speed of 20 feet.</description>
 		</sheet>
+		<rules>
+			<stat name="irkitlo-bite:dc" value="8" />
+			<stat name="irkitlo-bite:dc" value="proficiency" />
+			<stat name="irkitlo-bite:dc" value="strength:modifier" />
+			<stat name="irkitlo-claw:dc" value="8" />
+			<stat name="irkitlo-claw:dc" value="proficiency" />
+			<stat name="irkitlo-claw:dc" value="strength:modifier" />
+		</rules>
 	</element>
 	<element name="Irkitlov Pack Tactics" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_IRKITLOV_PACK_TACTICS">
 		<description>
