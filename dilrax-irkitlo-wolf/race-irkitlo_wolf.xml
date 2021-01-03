@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1.3">
+		<update version="0.1.4">
 			<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		</update>
 	</info>
@@ -55,7 +55,7 @@ Physical Strength, Agility and natural weapons.</p>
 			<stat name="Intelligence" value="1" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<stat name="innate speed" value="40" bonus="base" />
-			<grant type="Racial Trait" id="ID_IRWF_RACIAL_TRAIT_DARK_VISION" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_IRWF_RACIAL_TRAIT_THICK_FUR" />
 			<grant type="Racial Trait" id="ID_IRWF_RACIAL_TRAIT_TOOTH_AND_CLAW" />
 			<grant type="Racial Trait" id="ID_IRWF_RACIAL_TRAIT_IRKITLOV_PACK_TACTICS" />
@@ -66,14 +66,6 @@ Physical Strength, Agility and natural weapons.</p>
 			<grant type="Language" id="ID_LANGUAGE_WOLVEN_IRKITLOF" />
 			<grant type="Language" id="ID_LANGUAGE_BEAST_IRKITLOF" />
 		</rules>
-	</element>
-	<element name="Dark Vision" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_DARK_VISION">
-		<description>
-			<p>Your Nocturnal Hunts allow you to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.</p>
-		</description>
-		<sheet>
-			<description>Your Nocturnal Hunts allow you to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.</description>
-		</sheet>
 	</element>
 	<element name="Thick Fur" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_THICK_FUR">
 		<description>
