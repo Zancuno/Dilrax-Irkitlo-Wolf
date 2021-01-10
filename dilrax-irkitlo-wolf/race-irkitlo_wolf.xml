@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="race-irkitlo_wolf.xml" url="https://raw.githubusercontent.com/Zancuno/Dilrax-Irkitlo-Wolf/master/dilrax-irkitlo-wolf/race-irkitlo_wolf.xml" />
 		</update>
 	</info>
@@ -72,7 +72,7 @@ Physical Strength, Agility and natural weapons.</p>
 			<p>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments When in hot environments, such as deserts, thermal zones, etc., as well as when wet, you count as having a point of exhaustion.</p>
 		</description>
 		<sheet>
-			<description>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments When in hot environments, such as deserts, thermal zones, etc., as well as when wet, you count as having a point of exhaustion.</description>
+			<description>You have resistance to cold damage and advantage to stealth, nature, survival in cold environments. When in hot environments (deserts, thermal zones, etc.) as well as when wet, you have a point of exhaustion.</description>
 		</sheet>
 	</element>
 	<element name="Tooth And Claw" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_TOOTH_AND_CLAW">
@@ -80,7 +80,7 @@ Physical Strength, Agility and natural weapons.</p>
 			<p>Your Natural Weapons; Sharp Claws and Fanged maw Count as unarmed strikes and can deal lethal Damage; Bite: Your Bite is as Big as your Bark dealing piercing damage equal to 1d6 + modifier as a primary or a secondary attack. Claw: You rip with a sharp appendage, dealing piercing and slashing damage equal to 1d4 +modifier, You Can Attack twice if both hands are empty and have a climbing speed of 20 feet.</p>
 		</description>
 		<sheet>
-			<description>Your Natural Weapons; Sharp Claws and Fanged maw Count as unarmed strikes and can deal lethal Damage; Bite: Your Bite is as Big as your Bark dealing piercing damage equal to 1d6 + modifier as a primary or a secondary attack. Claw: You rip with a sharp appendage, dealing piercing and slashing damage equal to 1d4 +modifier, You Can Attack twice if both hands are empty and have a climbing speed of 20 feet.</description>
+			<description>Natural Weapons; Sharp claws and fanged maw Count as unarmed strikes and can deal lethal Damage; Bite: Your bite deals piercing damage equal to 1d6 + modifier as a primary or a secondary attack. Claw: You rip with a sharp claws, dealing piercing and slashing damage equal to 1d4 +modifier, You can attack twice if both hands are empty and have a climbing speed of 20 feet.</description>
 		</sheet>
 		<rules>
 			<stat name="irkitlo-bite:dc" value="8" />
@@ -96,15 +96,15 @@ Physical Strength, Agility and natural weapons.</p>
 			<p>Whenever you attack a target that is adjacent to at least one of your allies, you gain a +1 bonus on melee attack and damage rolls. If you and the ally are flanking the target, the bonus on damage rolls increases to +2, and both gain a +1 bonus to a saving throw against the target during its next turn. (if an ally is not deemed 'trustworthy' they do not count towards the bonus).</p>
 		</description>
 		<sheet>
-			<description>Whenever you attack a target that is adjacent to at least one of your "trustworthy" allies, you gain a +1 bonus on melee attack and damage rolls. If you and the "trustworthy" ally are flanking the target, the bonus on damage rolls increases to +2, and both gain a +1 bonus to a saving throw against the target during its next turn.</description>
+			<description>Whenever you attack a target that is adjacent to at least one of your trusted allies, you gain a +1 bonus on melee attack and damage rolls. If you and the trusted ally are flanking, the damage rolls bonus increases to +2, and both gain +1 bonus to a saving throw against the target during its next turn.</description>
 		</sheet>
 	</element>
 	<element name="Scent" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_SCENT">
 		<description>
-			<p>This extraordinary special quality allows you to detect approaching enemies, sniff out hidden foes, and track by sense of smell. with the scent ability you can identify familiar odors just as humans do familiar sights.</p>
+			<p>This extraordinary special quality allows you to detect approaching enemies, sniff out hidden foes, and track by sense of smell. You can identify familiar odors just as humans do familiar sights.</p>
 		</description>
 		<sheet>
-			<description>This extraordinary special quality allows you to detect approaching enemies, sniff out hidden foes, and track by sense of smell. with the scent ability you can identify familiar odors just as humans do familiar sights.</description>
+			<description>This special quality allows you to detect approaching enemies, sniff out hidden foes, and track by sense of smell. You can identify familiar odors just as humans do familiar sights.</description>
 		</sheet>
 	</element>
 	<element name="Instincts" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_INSTINCTS">
@@ -112,7 +112,7 @@ Physical Strength, Agility and natural weapons.</p>
 			<p>You occasionally find your self Subconsciously Performing certain tasks in a more Feral Manner and just doing something rather then thinking about it first, Your Intelligence is the lowest Ability Score Roll and you will often substitute words when speaking any language for that of the Irkitlov vocal language, the lower your intelligence score the more frequent it happens.</p>
 		</description>
 		<sheet>
-			<description>You occasionally find your self Subconsciously Performing certain tasks in a more Feral Manner and just doing something rather then thinking about it first, Your Intelligence is the lowest Ability Score Roll and you will often substitute words when speaking any language for that of the Irkitlov vocal language, the lower your intelligence score the more frequent it happens.</description>
+			<description>You occasionally find your self Subconsciously doing tasks in a more feral way, doing something rather then thinking first. Intelligence is your lowest Ability Score Roll and you often substitute words when speaking for that of the Irkitlov vocal language, the lower your intelligence score the more frequent it happens.</description>
 		</sheet>
 	</element>
 	<element name="For The Pack" type="Racial Trait" source="Irkitlo Wolf" id="ID_IRWF_RACIAL_TRAIT_FOR_THE_PACK">
@@ -120,7 +120,7 @@ Physical Strength, Agility and natural weapons.</p>
 			<p>You are distrusting of others who are not of your own kind or bear a marking of recognition from your kind, while you might get along fine with your other companions you still remain cautious and vigilant around them, you do not contribute to teamwork based bonuses with characters and people you don't fully trust.</p>
 		</description>
 		<sheet>
-			<description>You distrust others who are not of your own kind or bear a marking from your kind, while you might get alongwith your others you remain cautious and vigilant around them, you do not contribute to teamwork based bonuses with others you don't fully trust.</description>
+			<description>You distrust others who are not of your own kind or bear a marking from your kind, while you may get along with your others you remain cautious and vigilant around them, you do not contribute to teamwork bonuses with who you don't fully trust.</description>
 		</sheet>
 	</element>
 </elements>
